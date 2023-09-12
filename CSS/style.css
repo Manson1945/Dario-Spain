@@ -1,0 +1,124 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: titulo;
+    src: url(../ASSETS/FONTS/JosefinSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: menu ;
+    src: url(../ASSETS/FONTS/LibreBaskerville-Bold.ttf);
+}
+
+@font-face {
+    font-family: menu2;
+    src: url(../ASSETS/FONTS/JosefinSans-Italic-VariableFont_wght.ttf);
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 10vh;
+    background-color:#191D20
+    
+}
+
+header h1 {
+    font-family:titulo;
+    font-size: 1.3rem;
+    color: #f8f8f8;
+    padding: 3px;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+header nav  {
+    display: flex;
+    text-align: center;
+    justify-content:space-around;
+    align-content: end;
+    margin-top: 10px;
+    
+}
+
+header nav a {
+    text-decoration: none;
+    font-family: menu;
+    font-size: .8rem;
+    color: #a6a5a095;
+}
+
+
+section {
+    /* display: flex;
+    align-items: center; */
+    width: 100vw;
+    height: 40vh;
+    /* border: 1px solid green; */
+    
+    background: linear-gradient(to right, #191D20 20% , transparent),
+    url("../ASSETS/DSCN4607.jpg");
+    background-color: #191D20;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:3cm;
+    
+}
+
+section div {
+    padding: 10px;
+}
+
+
+
+
+#hi {
+    font-family: menu2;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+section h2 {
+    font-family: titulo;
+    font-size: 2.5rem;
+    color: #f8f8f8;
+    margin-top: 15px;
+}
+
+
+section button {
+    width: 40vw;
+    height: 5vh;
+    margin: 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ed2838be;
+    color: #f8f8f8;
+    font-family: menu;
+}
+
+.icon {
+    font-size: 1.3rem;
+}
+
+
+
+section h3 {
+    font-family: menu;
+    font-size: .8rem;
+    font-style: italic;
+    color: #f8f8f8;
+    margin-top: 10px;
+    
+}
+
+
+
+
