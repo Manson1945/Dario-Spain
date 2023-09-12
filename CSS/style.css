@@ -20,6 +20,8 @@
 }
 
 
+/* -----------HEADER---------- */
+
 
 header {
     display: flex;
@@ -56,7 +58,9 @@ header nav a {
 }
 
 
-section {
+/* ----------BANNER----------- */
+
+.banner {
     /* display: flex;
     align-items: center; */
     width: 100vw;
@@ -72,7 +76,7 @@ section {
     
 }
 
-section div {
+.banner div {
     padding: 10px;
 }
 
@@ -85,7 +89,7 @@ section div {
     margin-top: 30px;
 }
 
-section h2 {
+.banner h2 {
     font-family: titulo;
     font-size: 2.5rem;
     color: #f8f8f8;
@@ -93,7 +97,7 @@ section h2 {
 }
 
 
-section button {
+.banner button {
     width: 40vw;
     height: 5vh;
     margin: 25px;
@@ -110,7 +114,7 @@ section button {
 
 
 
-section h3 {
+.banner h3 {
     font-family: menu;
     font-size: .8rem;
     font-style: italic;
@@ -120,5 +124,41 @@ section h3 {
 }
 
 
+/* ----------GALERIA---------- */
+
+.galery h1 {
+    margin: 10px;
+    font-family: menu;
+    font-size: 1rem;
+    text-align: center;
+}
 
 
+ .galery div {
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    overflow-y: scroll;
+    scroll-behavior:smooth;
+    
+}
+
+
+.galery img {
+    width: 30vw;
+    height: 30vh;
+    margin: 7px;
+    border-radius: 20px;
+    
+}
+
+.galery div .up {
+    
+    align-self: flex-end;
+    
+}
+
+.galery div .down {
+    align-self: flex-start;
+    
+} 
